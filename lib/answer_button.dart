@@ -25,7 +25,9 @@ class AnswerButton extends StatelessWidget {
         answerText,
         style: TextStyle(
           fontSize: 32,
-        )),
+        ),
+        textAlign: TextAlign.center,
+      ),
     );
   }
 }
